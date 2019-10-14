@@ -1,21 +1,25 @@
 <?php
-function calcula($a,$b){
-echo '<div>';
-echo 'Suma de '.$a.' + '.$b.' = ';
-echo $a+$b;
-echo '</div>';
-echo '<div>';
-echo 'Resta de '.$a.' - '.$b.' = ';
-echo $a-$b;
-echo '</div>';
-echo '<div>';
-echo 'Multiplicación de '.$a.' x '.$b.' = ';
-echo $a*$b;
-echo '</div>';
-echo '<div>';
-echo 'División de '.$a.' / '.$b.' = ';
-echo $a/$b;
-echo '</div>'; 
+function suma($a,$b){
+$res=($a+$b);
+return $res;
 }
-calcula(5,5);
-?>	
+function resta($a,$b){
+$res=($a-$b);
+return $res;
+}
+function multi($a,$b){
+$res=($a*$b);
+return $res;
+}
+function divi($a,$b){
+$res=($a/$b);
+return $res;
+}
+echo "Suma: ".suma(6,3);
+echo '</br>';
+echo "Resta: ".resta(6,3);
+echo '</br>';
+echo "Multiplicación: ".multi(6,3);
+echo '</br>';
+echo "División: ".divi(6,3);
+?>
