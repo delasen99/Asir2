@@ -13,5 +13,5 @@ function mes($n){
 	global $meses;
 	return $meses[$n-1];
 }
-echo mes(1);
+echo mes(5);
 ?>
