@@ -1,23 +1,10 @@
 <?php
-function calcula(){
-$a=2;
-$b=8;
-echo '<div>';
-echo 'Suma de '.$a.' + '.$b.' = ';
-echo $a+$b;
-echo '</div>';
-echo '<div>';
-echo 'Resta de '.$a.' - '.$b.' = ';
-echo $a-$b;
-echo '</div>';
-echo '<div>';
-echo 'Multiplicación de '.$a.' x '.$b.' = ';
-echo $a*$b;
-echo '</div>';
-echo '<div>';
-echo 'División de '.$a.' / '.$b.' = ';
-echo $a/$b;
-echo '</div>'; 
-}
-calcula();
-?>	
+$a=50;
+$b=35;
+echo "primer numero ".$a.'<br/>';
+echo " segundo numero ".$b.'<br/>';
+echo " resta ".( $a - $b ).'<br/>';
+echo " suma ".( $a + $b ).'<br/>';
+echo " division ".( $a / $b ).'<br/>';
+echo "multiplicacion ".($a * $b). '<br/>';
+?>
