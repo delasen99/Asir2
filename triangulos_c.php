@@ -11,7 +11,7 @@
 	</br>
 	</br>
 	<button>Comprobar</button>
-	<button href="http://localhost/asir2_alejandro/triangulos_c.php">Poner todos los valores a 0</button>
+	<button href="http://localhost/asir2_james/triangulos_c.php">Poner todos los valores a 0</button>
 	</br>
 	
 </form>
@@ -66,4 +66,4 @@ echo triangulo(1,1,1,($_GET['angulo1']),($_GET['angulo2']),($_GET['angulo3']));
 	echo triangulo(1,sqrt(2),1,90,45,45).' ¿isósceles-rectángulo?<br/>';
 	echo triangulo(1,1,1,60,60,60).' ¿equilátero-acutángulo?<br/>';
 	echo triangulo(1,1,1,100,40,40).' ¿isósceles-obtusángulo?<br/>';
-?> 
+?>
